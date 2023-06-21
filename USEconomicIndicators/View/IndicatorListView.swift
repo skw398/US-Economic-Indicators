@@ -35,24 +35,9 @@ struct IndicatorListView: View {
     }
 }
 
-//private extension Indicator {
-//
-//    enum Category: String, CaseIterable {
-//        case 景気・金融, 消費, 雇用, 産業
-//
-//        var indicators: [Indicator] {
-//            switch self {
-//            case .景気・金融: return [.GDP, .realGDP, .realGDPPerCapita, .federalFunds]
-//            case .消費: return [.CPI, .retailSales, .consumerSentiment]
-//            case .雇用: return [.unemploymentRate, .totalNonfarmPayroll]
-//            case .産業: return [.durableGoods, .industrialProductionTotalIndex, .newPrivatelyOwnedHousingUnitsStartedTotalUnits, .totalVehicleSales]
-//            }
-//        }
-//    }
-//}
-
 #if DEBUG
-struct ContentView_Previews: PreviewProvider {
+struct IndicatorListView_Previews: PreviewProvider {
+    
     static var previews: some View {
         IndicatorListView()
     }

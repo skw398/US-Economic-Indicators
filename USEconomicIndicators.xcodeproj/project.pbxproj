@@ -15,6 +15,7 @@
 		B488C363293B03C500EBAA64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B488C362293B03C500EBAA64 /* Preview Assets.xcassets */; };
 		B488C36A293B04BC00EBAA64 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488C369293B04BC00EBAA64 /* Indicator.swift */; };
 		B488C36C293B104500EBAA64 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B488C36B293B104500EBAA64 /* IndicatorView.swift */; };
+		B4B83E8E2A42EE7F00AC0E5C /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B83E8D2A42EE7F00AC0E5C /* LineChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B488C362293B03C500EBAA64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B488C369293B04BC00EBAA64 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		B488C36B293B104500EBAA64 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		B4B83E8D2A42EE7F00AC0E5C /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,8 @@
 		B488C35A293B03C400EBAA64 /* USEconomicIndicators */ = {
 			isa = PBXGroup;
 			children = (
+				B4B83E8C2A42EE6500AC0E5C /* View */,
 				B488C35B293B03C400EBAA64 /* USEconomicIndicatorsApp.swift */,
-				B488C35D293B03C400EBAA64 /* IndicatorListView.swift */,
-				B488C36B293B104500EBAA64 /* IndicatorView.swift */,
 				B488C369293B04BC00EBAA64 /* Indicator.swift */,
 				B434D1562A3D77480051ED0E /* DataPoint.swift */,
 				B488C35F293B03C500EBAA64 /* Assets.xcassets */,
@@ -77,6 +78,16 @@
 				B488C362293B03C500EBAA64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4B83E8C2A42EE6500AC0E5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B488C35D293B03C400EBAA64 /* IndicatorListView.swift */,
+				B488C36B293B104500EBAA64 /* IndicatorView.swift */,
+				B4B83E8D2A42EE7F00AC0E5C /* LineChartView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				B488C35E293B03C400EBAA64 /* IndicatorListView.swift in Sources */,
 				B488C36C293B104500EBAA64 /* IndicatorView.swift in Sources */,
 				B434D1572A3D77480051ED0E /* DataPoint.swift in Sources */,
+				B4B83E8E2A42EE7F00AC0E5C /* LineChartView.swift in Sources */,
 				B488C36A293B04BC00EBAA64 /* Indicator.swift in Sources */,
 				B434D1592A3D78530051ED0E /* APIKey.swift in Sources */,
 				B488C35C293B03C400EBAA64 /* USEconomicIndicatorsApp.swift in Sources */,
