@@ -1,11 +1,6 @@
 import Foundation
     
 struct DataPoint: Decodable {
-    internal init(date: Date, value: Double) {
-        self.date = date
-        self.value = value
-    }
-    
     
     var date: Date
     var value: Double
